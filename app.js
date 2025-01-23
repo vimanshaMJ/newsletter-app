@@ -4,7 +4,6 @@ const express = require("express")
 const bodyParser = require("body-parser")
 const request = require("request")
 const exp = require("constants")
-const http = require("https")
 
 const app = express()
 
@@ -30,3 +29,4 @@ app.post("/", function(req, res){
 app.listen(3000, function(){
     console.log("Server is running on port 3000")
 })
+
