@@ -20,7 +20,7 @@ app.post("/", function(req, res){
     var lastName = req.body.lname;
     var email = req.body.email;
     
-    // console.log(firstName, lastName, email) -> no data came to console
+    console.log(firstName, lastName, email)
 
 })
 
